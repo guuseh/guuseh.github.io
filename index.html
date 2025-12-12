@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
     <link rel="stylesheet" href="style-common.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
+    <script src="home.js"></script>
 
     <style>
       html {
@@ -22,69 +22,25 @@
         <div class="header-wrapper" id="nav-left">
           <div class="header">
             <div class="nav" id="nav-left">
-                <div><p>Arturo NV</p></div>
-                <div><a href="https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y"
-                    target="_blank" download="rickrolled" ><p>Film</p></a></div>
-                <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><p>Photography</p></a></div>
+                <div><p onclick="filterAll()">Arturo NV</p></div>
+                <div><p onclick="filterFilm()">Film</p></div>
+                <div><p onclick="filterPhoto()">Photography</p></div>
             </div>
             <div class="nav" id="nav-right">
-              <div><p>CV</p></a></div>
+              <div></div>
+              <div><p>CV</p></div>
               <div><p>Instagram</p></div>
               <div><p>+31 06 06 34267202</p></div>
-            <div><p>Email</p></div>
+              <div><p>Email</p></div>
+            </div>
         </div>
-          </div>
         </div>
+        
         <div class="body-wrapper">
-            <div class="title">
-                <p>Film projects</p>
-            </div>
-            <div class="gallery">
-                
-                    <div class="gallery-item">
-                        <a href="/project2.html">
-                            <div class="gallery-image">
-                                <img src="images/thistime.webp" />
-                            </div>
-                        </a>
-                        <div class="gallery-item-title">
-                            <p>This Time</p>
-                        </div>
-                    </div>
-                   
-                <div class="gallery-item">
-                    <div class="gallery-image">
-                        <img src="images/neoproto.png" />
-                    </div>
-                    <div class="gallery-item-title">
-                        <p>Neo Proto</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image">
-                        <img src="images/neoproto.png" />
-                    </div>
-                    <div class="gallery-item-title">
-                        <p>Neo Proto</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image">
-                        <img src="images/neoproto.png" />
-                    </div>
-                    <div class="gallery-item-title">
-                        <p>Neo Proto</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image">
-                        <img src="images/neoproto.png" />
-                    </div>
-                    <div class="gallery-item-title">
-                        <p>Neo Proto</p>
-                    </div>
-                </div>
-            </div>
+            <div class="title" id="categorytitle"></div>
+            <div class="gallery" id="projectsgallery"></div>
         </div>
+        
+    </div>
   </body>
 </html>
