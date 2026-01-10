@@ -46,6 +46,7 @@ const Menu = ({small}) => {
     <div className="navigation">
         <div className="nav" onClick={() => navigate('odditype')} onMouseEnter={() => handleMouseEnter("./img/odditype/tooltip.gif", 200)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>odditype</div>
         <div className="nav" onClick={() => navigate('hyperlink')} onMouseEnter={() => handleMouseEnter("./img/hyperlink/hyperlink3.gif", 200)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>hyperlink//</div>
+        <div className="nav" onClick={() => navigate('dollhouse')} onMouseEnter={() => handleMouseEnter("./img/dollhouse/entry.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>thedoll.house</div>
         <div className="nav" onClick={() => navigate('aaniaalto')} onMouseEnter={() => handleMouseEnter("./img/aaniaalto/glitch3.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>aaniaalto'23</div>
         <div className="nav" onClick={() => navigate('contestations')} onMouseEnter={() => handleMouseEnter("./img/contestations/tooltip.gif", 300)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>contestations.ai</div>
         <div className="nav" onClick={() => navigate('hypertext')} onMouseEnter={() => handleMouseEnter("./img/hypertext/tooltip.gif", 250)} onMouseLeave={() => handleMouseLeave()} onMouseMove={(e) => handleMouseMove(e)}>hypertext & the design process</div>
@@ -59,6 +60,7 @@ const Menu = ({small}) => {
     <div className="navigation" style={{top: top + "px"}}>
         <div className="nav" onClick={() => {navigate('odditype'); handleMenu()}}>odditype</div>
         <div className="nav" onClick={() => {navigate('hyperlink'); handleMenu()}}>hyperlink//</div>
+        <div className="nav" onClick={() => {navigate('dollhouse'); handleMenu()}}>thedoll.house</div>
         <div className="nav" onClick={() => {navigate('aaniaalto'); handleMenu()}}>aaniaalto'23</div>
         <div className="nav" onClick={() => {navigate('contestations'); handleMenu()}}>contestations.ai</div>
         <div className="nav" onClick={() => {navigate('hypertext'); handleMenu()}}>hypertext & the design process</div>

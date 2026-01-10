@@ -7,6 +7,7 @@ const Header = () => {
   return (
     <header>
         <div className="right-nav" onClick={() => navigate("/")}>Guus ☺&#xFE0E;</div>
+        <div className="right-nav" onClick={() => navigate("/cv")}>Contact & CV</div>
     </header>
   )
 }
