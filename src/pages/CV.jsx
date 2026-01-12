@@ -43,7 +43,7 @@ const CV = () => {
             <div className="cv-grid-first">2025 – 2026</div>
             <div className="cv-grid-second">The Chatroom & The Dollhouse<br/><i>Web developer and co-designer</i></div>
 
-            <div className="cv-grid-first">2022 – 2025</div>
+            <div className="cv-grid-first">2021 – 2025</div>
             <div className="cv-grid-second">The Hmm, platform for internet cultures<br/><i>Medior multidisciplinary executive</i></div>
 
             <div className="cv-grid-first">2024 – 2025</div>
